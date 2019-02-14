@@ -41,7 +41,7 @@ public class MvpAutomaticCreationAction extends AnAction {
      * @param e
      */
     private void refreshProject(AnActionEvent e) {
-        e.getProject().getProjectFile().refresh(false, true);
+        e.getProject().getBaseDir().refresh(false, true);
     }
 
     /**

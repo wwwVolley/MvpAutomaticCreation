@@ -61,8 +61,20 @@ public class MyDialog extends JDialog {
         dispose();
     }
 
+//    public static void main(String[] args) {
+//        MyDialog dialog = new MyDialog(new DialogCallBack() {
+//            @Override
+//            public void ok(String author, String moduleName) {
+//                System.out.print("成功啦！！！！！！ " + "author:" + author + "moduleName" + moduleName);
+//            }
+//        });
+//        dialog.pack();
+//        dialog.setVisible(true);
+//        System.exit(0);
+//    }
 
     public interface DialogCallBack{
         void ok(String author, String moduleName);
     }
+
 }

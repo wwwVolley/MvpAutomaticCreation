@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
+  <id>com.wnt.mvp</id>
   <name>MVPGenAction</name>
   <version>1.0</version>
   <vendor email="wnt18746975933@126.com" url="https://github.com/wwwVolley/TestPlu">Wnt</vendor>
@@ -13,7 +13,7 @@
   ]]></change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="141.0"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
@@ -28,7 +28,7 @@
   <actions>
     <!-- Add your actions here -->
     <action id="MvpPlugin.ID" class="code.MvpAutomaticCreationAction" text="MvpAutomaticCreation" description="mvp">
-      <add-to-group group-id="CodeMenu" anchor="first"/>
+      <add-to-group group-id="CodeMenu" anchor="last"/>
     </action>
   </actions>
 
